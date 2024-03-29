@@ -1,0 +1,18 @@
+.header-section{
+    @apply lg:mb-12 mb-6
+}
+.header-section-title{
+     @apply lg:text-20xl text-7xl font-black f-secondary
+}
+.header-section-title-small{
+     @apply lg:text-7xl text-3xl f-secondary
+}
+.header-section-subtitle{
+    @apply text-natural-betha lg:text-base-plus text-sm font-semibold lg:mb-1
+}
+.header-section-link{
+    @apply flex items-center text-natural-betha lg:text-base-plus text-base font-semibold mt-8 hover:text-white transition-all
+}
+.header-section-link i{
+    @apply font-bold lg:mr-4 mr-3 lg:text-md text-base
+}

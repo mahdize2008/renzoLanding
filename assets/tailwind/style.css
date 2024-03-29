@@ -1,0 +1,51 @@
+/* GENERIC */
+@import "generic/font.css";
+@import "generic/font-icon.css";
+@import "generic/title-public.css";
+@import "generic/text-public.css";
+@import "generic/header-section.css";
+@import "generic/link-modern.css";
+@import "generic/line.css";
+@import "generic/backdrop.css";
+
+
+/* SECTIONS */
+@import "sections/header.css";
+@import "sections/option.css";
+@import "sections/play.css";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    html,body {
+        @apply overflow-x-hidden font-["yekanBakh"] text-right bg-primary text-white;
+        direction: rtl;
+    }
+
+}
+
+@layer components {
+    .py-between-section {
+        @apply lg:py-20 py-10;
+    }
+
+    .pb-between-section {
+        @apply lg:pb-20 pb-10;
+    }
+
+    .mb-between-section {
+        @apply lg:mb-40 mb-20
+    }
+
+    .f-secondary {
+        @apply font-["barlow"];
+    }
+
+    .writing-mode-lr{
+        writing-mode: vertical-lr;
+    }
+}

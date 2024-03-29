@@ -1,0 +1,103 @@
+/*FONT-ICON*/
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icon/icomoon.eot?xk61jf");
+  src: url("../fonts/icon/icomoon.eot?xk61jf#iefix") format("embedded-opentype"),
+    url("../fonts/icon/icomoon.ttf?xk61jf") format("truetype"),
+    url("../fonts/icon/icomoon.woff?xk61jf") format("woff"),
+    url("../fonts/icon/icomoon.svg?xk61jf#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.1;
+  display: block;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+i {
+  position: relative;
+}
+i span[class*="path"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+i span.path1 {
+  position: relative !important;
+}
+
+.icon-up-arrow:before {
+  content: "\e902";
+}
+.icon-viber:before {
+  content: "\e907";
+}
+.icon-desk-chair:before {
+  content: "\e900";
+}
+.icon-size:before {
+  content: "\e901";
+}
+.icon-puck:before {
+  content: "\e903";
+}
+.icon-thermostat:before {
+  content: "\e904";
+}
+.icon-play-button:before {
+  content: "\e905";
+}
+.icon-pin:before {
+  content: "\e906";
+}
+.icon-telephone:before {
+  content: "\e908";
+}
+.icon-email:before {
+  content: "\e909";
+}
+.icon-clock:before {
+  content: "\e90e";
+}
+.icon-instagram:before {
+  content: "\e90d";
+}
+.icon-telegram:before {
+  content: "\e90a";
+}
+.icon-twitter:before {
+  content: "\e90b";
+}
+.icon-whatsapp:before {
+  content: "\e90c";
+}
+.icon-menu1:before {
+  content: "\e934";
+}
+.icon-close:before {
+  content: "\e937";
+}
+.icon-left-arrow:before {
+  content: "\e90f";
+}
+.icon-musical:before {
+  content: "\e914";
+}
+.icon-menu2:before {
+  content: "\e93f";
+}
+.icon-menu:before {
+  content: "\ea0e";
+}

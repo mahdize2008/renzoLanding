@@ -1,0 +1,27 @@
+.play-btn span {
+    @apply content-['']
+    absolute top-1/2 -translate-y-1/2 start-1/2 translate-x-1/2 bg-warning rounded-full aspect-square;
+    animation: play infinite 3s;
+}
+.play-btn span.first {
+    @apply w-full;
+    animation-delay: 0s
+}
+.play-btn span.second {
+    @apply w-full;
+    animation-delay: 1s
+}
+.play-btn span.third {
+    @apply w-full;
+    animation-delay: 2s
+}
+
+
+@keyframes play {
+    from {
+        @apply w-[100%] opacity-80;
+    }
+    to {
+        @apply w-[170%] opacity-0;
+    }
+}

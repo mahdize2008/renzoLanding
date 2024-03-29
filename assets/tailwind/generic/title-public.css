@@ -1,0 +1,3 @@
+.title-public{
+    @apply text-white f-secondary font-semibold lg:text-9xl text-xl
+}

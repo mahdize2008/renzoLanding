@@ -1,0 +1,3 @@
+.text-public{
+    @apply text-natural lg:text-base text-sm-plus text-justify leading-7 
+}

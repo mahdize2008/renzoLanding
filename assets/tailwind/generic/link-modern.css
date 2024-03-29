@@ -1,0 +1,13 @@
+.link-modern{
+    @apply flex items-center lg:pr-[93px] pr-[67px] relative lg:py-2.5 py-[3px] w-fit
+}
+.link-modern span{
+    @apply block lg:text-base text-sm-plus font-semibold py-1 transition-all z-10
+}
+
+.link-modern::before{
+    @apply content-[''] lg:w-12 w-9 hover:w-2/3 bg-info -skew-x-[40deg] h-full lg:mx-[21px] mx-[16px] absolute right-0 top-0 transition-all duration-300
+}
+.link-modern-secondary::before{
+    @apply bg-secondary
+}

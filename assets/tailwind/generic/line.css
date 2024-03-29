@@ -1,0 +1,6 @@
+.line{
+    @apply w-[100px] bg-primary-lighter-alpha overflow-hidden
+}
+.line span{
+    @apply block bg-white h-[2px]
+}

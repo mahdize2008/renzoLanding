@@ -1,0 +1,6 @@
+.option-shape::before{
+    @apply bg-alpha-dark-top content-[''] w-full h-2/5 z-10 absolute top-0 left-0
+}
+.option-shape::after{
+    @apply bg-alpha-dark content-[''] w-full h-2/5 z-10 absolute bottom-0 left-0
+}
